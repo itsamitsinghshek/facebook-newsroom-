@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.main{
+    width: 100%;
+}
+/* header css start */
+header{
+    width: 100%;
+    background-color: white;
+    padding: 35px 45px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0px;
+}
+.left-header{
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.right-header{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.right-header i{
+    cursor: pointer;
+}
+/* header css end */
+/* middle section css start */
+/* newsroom section css start */
+.newsroom{
+    width: 86%;
+    margin: 50px auto;
+}
+.heading{
+    font-size: 50px;
+    font-weight: normal;
+    color: #666666;
+}
+.newsroom h2{
+    color: #666666;
+    font-weight: normal;
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+.stories{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 30px;
+}
+.left-story{
+    width: 50%;
+}
+.right-story{
+    width: 50%;
+}
+.meta{
+    text-decoration: underline #006de8;
+    font-weight: normal;
+}
+.news-heading{
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.news-article{
+    font-size: 15px;
+    padding: 10px 0px;
+    color: #666666;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.news-date{
+    font-size: 14px; 
+    color: #666666;
+    letter-spacing: 1px;
+}
+.news-headline{
+    color: black;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.news-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.news-box img{
+    margin-left: 5px;
+}
+/* newsroom section css end */
+/* 2024 banner css start */
+.banner2024{
+    width: 100%;
+    display: flex;
+}
+.left-banner2024{
+    background-color: #f1f2f4;
+    width: 52%;
+    padding: 150px 55px;
+}
+.right-banner2024{
+    width: 48%;
+    cursor: pointer;
+    overflow: hidden;
+}
+.right-banner2024 img{
+    transition: 1s;
+}
+.right-banner2024 img:hover{
+    transform: scale(1.05);
+}
+/* 2024 banner css end */
+/* recent section css start */
+.recent-section{
+    width: 86%;
+    margin: 100px auto;
+}
+.recent-news{
+    display: flex;
+    gap: 50px;
+    letter-spacing: 1px;
+}
+.left-recent{
+    width: 14%;
+}
+.left-recent h4{
+    color: #677b8c;
+    margin-top: 50px;
+}
+.left-recent p{
+    font-size: 13px;
+    margin-top: 15px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.left-recent p:hover{
+    font-weight: bold;
+}
+.right-recent{
+    width: 65%;
+    /* border-bottom: 1px solid black; */
+}
+.whatsapp{
+    width: 103px;
+    font-weight: normal;
+    border-bottom: 2px solid #25d366;
+    padding-bottom: 5px;
+}
+.see-icon{
+    border-top: 1px solid black;
+    padding-top: 30px;
+    color: #666666;
+    cursor: pointer;
+}
+/* recent section css end */
+/* press links css start */
+.press-link{
+    display: flex;
+    gap: 190px;
+    padding: 40px 160px;
+    background-color: #f1f2f4;
+    letter-spacing: 1px;
+}
+.press-link h3{
+    color: #344854;
+    font-weight: 100;
+    font-size: 20px;
+}
+.press-link a{
+    font-size: 13px;
+}
+/* press links css end */
+/* middle section css end */
+/* footer section css start */
+footer{
+    margin: 60px 50px;
+    display: flex;
+    gap: 150px;
+}
+.social-links{
+    padding-top: 40px;
+}
+.social-links p{
+    padding-top: 50px;
+    font-size: 13px;
+}
+.social-links i{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.footer-service h4{
+    font-size: 14px;
+    color: #454f54;
+    padding-top: 40px;
+}
+.footer-service p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.footer-service p:hover{
+    color: #666666;
+}
+.policy{
+    padding: 40px;
+    font-size: 12px;
+}
+.policy a{
+    margin-left: 40px;
+}
+.policy a:hover{
+    color: #666666;
+}
+/* footer section css end */
